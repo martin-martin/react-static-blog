@@ -8,7 +8,7 @@ var Layout = React.createClass({
   mixins: [Router.State, Paths],
 
   getDefaultProps: function() {
-    return {title: 'React Static Site'};
+    return {title: 'Pokéwhere'};
   },
 
   render: function() {
@@ -16,7 +16,7 @@ var Layout = React.createClass({
     var style = (process.env.NODE_ENV==='production') ? <link rel="stylesheet" href="/assets/pure.css" /> : '';
     var style2 = (process.env.NODE_ENV==='production') ? <link rel="stylesheet" href="/assets/style.css" /> : '';
 
-    var title = this.getPathMeta('title') + ' - React Static Site';
+    var title = this.getPathMeta('title') + ' - Pokéwhere';
     return (
       <html>
         <head>

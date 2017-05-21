@@ -10,7 +10,11 @@ var paths = {
   '/blog': {
     title: 'Blog'
   },
-  
+    '/contact': {
+    title: 'Contact',
+    page: 'contact.html'
+  },
+
   posts: {
     first_post: {
       title: 'My First Blog Post',

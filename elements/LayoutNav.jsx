@@ -7,12 +7,13 @@ var LayoutNav = React.createClass({
     return (
       <nav id="layout-nav">
         <div className="pure-menu pure-menu-open">
-          <a className="pure-menu-heading">Site Nav</a>
+          <a className="pure-menu-heading">Towards PokéWhere</a>
 
           <ul>
             <li><Link to="home">Home</Link></li>
             <li><Link to="about">About</Link></li>
             <li><Link to="blog">Blog</Link></li>
+            <li><Link to="contact">Contact</Link></li>
           </ul>
         </div>
       </nav>
